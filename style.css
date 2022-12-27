@@ -1,8 +1,17 @@
+:root {
+    --green: #41c541;
+    --white: #FFFFFF;
+    --black: #000000;
+    --blue: rgb(61, 201, 233);
+    --orange: rgb(211, 114, 35);
+  }
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 12px;
     max-width: 960px;
     margin: auto;
+    background: var(--bg);
+    color: var(--fontColor);
 }
 h1 {
     font-size: 3em;
@@ -12,10 +21,12 @@ h1 {
 
 h2 {
     font-size: 1.5em;
+    color: var(--h2);
 }
 
 h3 {
     font-size: 1em;
+    color: var(--h3);
 }
 main { 
     display: grid;
@@ -42,7 +53,7 @@ p {
 
 hr {
     border: none;
-    background-color: lightgray;
+  background-color: lightgray;
     height: 1px;
 }
 
@@ -57,3 +68,29 @@ h1, h2, h3 {
         border-right: 1px solid lightgray;
     }
 }
+.light-theme {
+    --bg: var(--white);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--green);
+  }
+  
+  .dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+    --h2: var(--blue);
+    --h3: var(--orange);
+  }
+  .btn {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+  }
