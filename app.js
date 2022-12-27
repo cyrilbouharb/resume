@@ -7,7 +7,7 @@ switcher.addEventListener('click', function() {
 
 const className = document.body.className;
 if(className == "light-theme") {
-    this.textContent = " Switch to Dark Mode";
+    this.textContent = "Switch to Dark Mode";
 } else {
     this.textContent = "Switch to Light Mode";
 }
