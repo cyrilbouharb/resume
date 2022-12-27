@@ -85,8 +85,8 @@ h1, h2, h3 {
   }
   .btn {
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 25px;
+    left: 25px;
     height: 75px;
     width: 75px;
     border-radius: 50%;
