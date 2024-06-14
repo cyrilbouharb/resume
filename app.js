@@ -13,6 +13,6 @@ switcher.addEventListener('click', function() {
         this.textContent = "Switch to Dark Mode";  // Indicates that the next click will switch to dark mode.
     }
 
-    // Optional: Output the current theme to the console for debugging.
+    //debugging.
     console.log('Current theme class: ' + document.body.className);
 });
