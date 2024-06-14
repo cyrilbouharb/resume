@@ -71,8 +71,8 @@ h1, h2, h3 {
 .light-theme {
     --bg: var(--white);
     --fontColor: var(--black);
-    --btnBg: var(--black);
-    --btnFontColor: var(--green);
+    --btnBg: #cccccc;
+    --btnFontColor: var(--black);
   }
   
 .dark-theme {
