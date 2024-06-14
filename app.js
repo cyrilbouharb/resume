@@ -1,14 +1,18 @@
 const switcher = document.querySelector('.btn');
 
 switcher.addEventListener('click', function() {
-    document.body.classList.toggle('light-theme');
-    document.body.classList.toggle('dark-theme');
+    // If the light theme is currently applied, switch to dark theme and update button text.
+    if (document.body.classList.contains('light-theme')) {
+        document.body.classList.remove('light-theme');
+        document.body.classList.add('dark-theme');
+        this.textContent = "Switch to Light Mode";  // Indicates that the next click will switch to light mode.
+    } else {
+        // If dark theme is active, switch to light theme and update button text.
+        document.body.classList.remove('dark-theme');
+        document.body.classList.add('light-theme');
+        this.textContent = "Switch to Dark Mode";  // Indicates that the next click will switch to dark mode.
+    }
 
-const className = document.body.className;
-if(className == "light-theme") {
-    this.textContent = "Switch to Dark Mode";
-} else {
-    this.textContent = "Switch to Light Mode";
-}
-console.log('current class name: ' + className);
+    // Optional: Output the current theme to the console for debugging.
+    console.log('Current theme class: ' + document.body.className);
 });
