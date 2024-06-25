@@ -1,6 +1,7 @@
 # Resume Website
 
-Welcome to the repository for my personal resume website! This site is designed to showcase my skills, experiences, and academic background in a clear, interactive format. 
+Welcome to the repository for my personal resume website! This site is designed to showcase my skills, experiences, and academic background in a clear, interactive format.
+Check out my interactive resume at this link: cyrilbouharb.github.io/resume
 
 ## About This Project
 
@@ -36,4 +37,3 @@ Interested in learning more about me or my projects? Visit [my GitHub profile](h
 
 Thank you for visiting!
 
-```
