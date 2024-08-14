@@ -81,7 +81,7 @@ h1, h2, h3 {
     --btnBg: #333333; /* Dark grey for buttons to contrast lightly with background */
     --btnFontColor: #B8B8B8; /* Light grey for button text to ensure readability */
     --h2: #4A90E2; /* Subtle blue for secondary headers */
-    --h3: #F4B400; /* Muted yellow for tertiary headers, maintaining readability */
+    --h3: #E0E0E0; /* Muted yellow for tertiary headers, maintaining readability */
 }
 
   .btn {
